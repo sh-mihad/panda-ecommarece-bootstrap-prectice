@@ -8,7 +8,7 @@
   </head>
   <body>
     <header class="container">
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg fixed-top bg-light">
             <div class="container">
               <a class="navbar-brand" href="#">
                 <img src="images/logo.png" alt="">
@@ -22,14 +22,14 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Showes</a>
+                    <a class="nav-link" href="#shoes">Shoes</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">BackPacks</a>
+                    <a class="nav-link" href="#backpacks">BackPacks</a>
                   </li>
                   
                   <li class="nav-item">
-                    <a class="nav-link ">Subscribe</a>
+                    <a class="nav-link " href="#subs">Subscribe</a>
                   </li>
                 </ul>
                 
@@ -131,7 +131,7 @@
       <!-- Catagories End -->
 
       <!-- shoes Product start -->
-      <section class="container my-5">
+      <section class="container my-5" id="shoes">
         <h1>Shoes</h1>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
           <div class="col">
@@ -179,7 +179,7 @@
       <!-- shoes Product end -->
 
       <!-- Bagpack Secton Start  -->
-      <section class="container my-5">
+      <section class="container my-5" id="backpacks">
         <h1>Shoes</h1>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
           <div class="col">
@@ -226,8 +226,23 @@
       </section>
       <!-- Bagpack Secton End -->
 
-    </main>
+      <!-- Subscribe Section Start  -->
+      <section style="height: 350px;background-color: #fceae8;" class="container d-flex justify-content-center align-items-center rounded-4" id="subs">
+        <form>
+          <h2>LET'S STAY IN TOUCH</h2>
+          <p>Get updates on sales, specials and more</p>
+          <div class="mb-3">
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </section>
+      <!-- Subscribe Section End -->
 
+    </main>
+    <footer class="container my-5">
+      <p class="text-center"><small>©2023. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small></p>
+    </footer>
 
 
 
